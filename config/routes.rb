@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
-  get 'people/index'
-  get 'people/new'
-  get 'people/show'
+
   get 'static_pages/home'
   get 'static_pages/help'
   root 'static_pages#home'

@@ -1,2 +1,7 @@
-<h1>People#show</h1>
-<p>Find me in app/views/people/show.html.erb</p>
+<h1><%= @person.last_name %><%= @person.first_name %></h1>
+
+<h2>age. <%= @person.age %>
+ hair color <%= @person.hair_color %>
+eye color <%= @person.eye_color %>
+gender <%= @person.gender %>
+<p>alive? <%= @person.alive %></p>
