@@ -21,4 +21,6 @@ Things you may want to cover:
 
 * Deployment instructions
 
+Person.create(first_name: 'Terrence', last_name: 'Mckenna',  age: 72, hair_color: 'grey', eye_color: 'brown', gender: 'm', alive: false)
+
 * ...
