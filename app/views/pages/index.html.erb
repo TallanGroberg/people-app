@@ -1,2 +1,8 @@
-<h1>Pages#index</h1>
+<h1>this is a list of cool people you can learn what they look like</h1>
+
+<% @person.each do |person| %>
+  <h2><%= person.first_name %></h2>
 <p>Find me in app/views/pages/index.html.erb</p>
+ <%= link_to 'Show Page', page_path(@person) %>
+<%= link_to 'New Page', new_page_path %></p>
+<% end %>
