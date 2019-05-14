@@ -8,8 +8,7 @@ class CreatePeople < ActiveRecord::Migration[5.2]
       t.string :eye_color
       t.string :gender
       t.boolean :alive
-      #this is to test merging
-      #this was written on the controller branch
+
       t.timestamps
     end
   end
