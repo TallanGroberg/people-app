@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
   def index
+    @person = Person.all
   end
 
   def show
