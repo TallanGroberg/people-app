@@ -1,4 +1,4 @@
-class PagesController < ApplicationController
+class PeopleController < ApplicationController
   def index
     @person = Person.all
   end
@@ -9,7 +9,6 @@ class PagesController < ApplicationController
 
   def new
     @person = Person.new
-
   end
 
-end
+  end
