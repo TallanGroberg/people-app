@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* check out my branch for userlogin its a start with new controller to make user accounts
 
 Things you may want to cover:
 
