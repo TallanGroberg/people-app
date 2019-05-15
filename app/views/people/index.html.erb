@@ -4,4 +4,5 @@
   <h2><%= person.first_name  %> <%= person.last_name  %></h2>
  <%= link_to 'Show Page', person_path(person) %>
 <%= link_to 'New Page', new_person_path %></p>
+<%= link_to 'take a person off the list', edit_person_path(person) %>
 <% end %>
